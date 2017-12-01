@@ -11,22 +11,9 @@ body {
 }
 
 .card {
-  /*background    : white;
-  border-radius : 3px;
-  box-shadow    : 0 1px 2px #aaa;
-  display       : inline-block;
-  margin        : 0 1rem 1rem;
-  max-width     : 448px;
-  padding       : 1.5rem;
-  position      : relative;
-  z-index       : 2;*/
-
   padding:   1rem;
   width:     100%;
   max-width: 40rem;
-
-  /*width: 400px;
-  height: 300px;*/
 }
 
 .card.animate {
@@ -71,12 +58,7 @@ body {
   animation-delay: 1000ms;
 }
 
-/*.card {
-  width: 400px;
-  height: 300px;
-}*/
-
-.card img {
+#app .card img {
   max-width: 100%;
 }
 
@@ -99,116 +81,4 @@ body {
   width: 100%;
   min-width: 200px;
   min-height: 300px;
-}
-
-.bg-one-and-eight {
-  background-image: url('/assets/images/1and8.png');
-}
-.bg-two-and-seven {
-  background-image: url('/assets/images/2and7.png');
-}
-.bg-fives {
-  background-image: url('/assets/images/fives.png');
-}
-.bg-fifty-fifty {
-  background-image: url('/assets/images/fifty-fifty.png');
-}
-.bg-alliance {
-  background-image: url('/assets/images/alliance.png');
-}
-.bg-assist {
-  background-image: url('/assets/images/assist.png');
-}
-.bg-beards {
-  background-image: url('/assets/images/beards.png');
-}
-.bg-bones {
-  background-image: url('/assets/images/bones.png');
-}
-.bg-cheap {
-  background-image: url('/assets/images/cheap.png');
-}
-.bg-classy {
-  background-image: url('/assets/images/classy.png');
-}
-.bg-color {
-  background-image: url('/assets/images/color.png');
-}
-.bg-cry {
-  background-image: url('/assets/images/cry.png');
-}
-.bg-defense {
-  background-image: url('/assets/images/defense.png');
-}
-.bg-dragon {
-  background-image: url('/assets/images/dragon.png');
-}
-.bg-equal {
-  background-image: url('/assets/images/equal.png');
-}
-.bg-evens {
-  background-image: url('/assets/images/evens.png');
-}
-.bg-expansion {
-  background-image: url('/assets/images/expansion.png');
-}
-.bg-fire-ice {
-  background-image: url('/assets/images/fire-ice.png');
-}
-.bg-fortify {
-  background-image: url('/assets/images/fortify.png');
-}
-.bg-girls {
-  background-image: url('/assets/images/girls.png');
-}
-.bg-healer {
-  background-image: url('/assets/images/healer.png');
-}
-.bg-horde {
-  background-image: url('/assets/images/horde.png');
-}
-.bg-hunter {
-  background-image: url('/assets/images/hunter.png');
-}
-.bg-legendary-curves {
-  background-image: url('/assets/images/legendary-curves.png');
-}
-.bg-letters {
-  background-image: url('/assets/images/letters.png');
-}
-.bg-lift {
-  background-image: url('/assets/images/lift.png');
-}
-.bg-mammoth {
-  background-image: url('/assets/images/mammoth.png');
-}
-.bg-odds {
-  background-image: url('/assets/images/odds.png');
-}
-.bg-offense {
-  background-image: url('/assets/images/offense.png');
-}
-.bg-only-one {
-  background-image: url('/assets/images/only-one.png');
-}
-.bg-pauper {
-  background-image: url('/assets/images/pauper.png');
-}
-.bg-pauper-plus {
-  background-image: url('/assets/images/pauper-plus.png');
-}
-.bg-rafam {
-  background-image: url('/assets/images/rafam.png');
-}
-.bg-randomonium {
-  background-image: url('/assets/images/randomonium.png');
-}
-.bg-silenced-a {
-  background-image: url('/assets/images/silenced-a.png');
-}
-.bg-suicide {
-  background-image: url('/assets/images/suicide.png');
-}
-.bg-three {
-  background-image: url('/assets/images/three.png');
 }
