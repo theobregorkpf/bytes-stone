@@ -11,7 +11,7 @@ body {
 }
 
 .card {
-  background    : white;
+  /*background    : white;
   border-radius : 3px;
   box-shadow    : 0 1px 2px #aaa;
   display       : inline-block;
@@ -19,12 +19,14 @@ body {
   max-width     : 448px;
   padding       : 1.5rem;
   position      : relative;
-  z-index       : 2;
-}
+  z-index       : 2;*/
 
-.card .title {
-  font-size: 2rem;
-  margin-bottom: 1em;
+  padding:   1rem;
+  width:     100%;
+  max-width: 40rem;
+
+  /*width: 400px;
+  height: 300px;*/
 }
 
 .card.animate {
@@ -69,9 +71,34 @@ body {
   animation-delay: 1000ms;
 }
 
-.card {
+/*.card {
   width: 400px;
-  height: 543px;
+  height: 300px;
+}*/
+
+.card img {
+  max-width: 100%;
+}
+
+.list {
+  display:          flex;
+  flex-wrap:        wrap;
+  align-items:      center;
+  justify-content:  center;
+}
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+
+.bg {
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  height: 100%;
+  width: 100%;
+  min-width: 200px;
+  min-height: 300px;
 }
 
 .bg-one-and-eight {

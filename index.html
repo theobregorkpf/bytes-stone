@@ -9,8 +9,22 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div id="app">
+    <!-- <h1> BytesStone </h1> -->
+    <div id="todo-list-example">
+      <!-- <input
+        v-model="newTodoText"
+        v-on:keyup.enter="addNewTodo"
+        placeholder="Add a todo"
+      > -->
+      <div v-if="show" class="list nowrap" @click.prevent="rerender">
 
+        <div
+          is="card-item"
+          v-for="(item, index) in threeRandomCards()"
+          v-bind:key="item.id"
+          v-bind:name="item.name"
+        ></div>
+      </div>
     </div>
 
     <script src="https://unpkg.com/vue"></script>
