@@ -82,3 +82,34 @@ body {
   min-width: 200px;
   min-height: 300px;
 }
+
+.snowy {
+  background-color: #6b92b9;
+  background-image: url('https://user-images.githubusercontent.com/1154834/34234912-11baa576-e5a3-11e7-9797-3f1f65696758.png'), url('https://user-images.githubusercontent.com/1154834/34234914-11ec1656-e5a3-11e7-9484-b1fe0c70fe2f.png'), url('https://user-images.githubusercontent.com/1154834/34234913-11d1044c-e5a3-11e7-9e55-32fedf4db5e6.png');
+  -webkit-animation: snow 20s linear infinite;
+  -moz-animation: snow 20s linear infinite;
+  -ms-animation: snow 20s linear infinite;
+  animation: snow 20s linear infinite;
+}
+
+/*Keyframes*/
+@keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+@-moz-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+@-webkit-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 50% {background-color:#b4cfe0;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px; background-color:#6b92b9;}
+}
+
+@-ms-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
