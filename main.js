@@ -80,8 +80,8 @@ new Vue({
 
       return [
         {id: 0, url: shuffledUrls[0] },
-        {id: 1, url: shuffledUrls[1] },
-        {id: 2, url: shuffledUrls[2] },
+        // {id: 1, url: shuffledUrls[1] },
+        // {id: 2, url: shuffledUrls[2] },
       ]
     },
     reshuffle() {
