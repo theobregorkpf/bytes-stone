@@ -68,7 +68,7 @@ Vue.component('card-item', {
 })
 
 new Vue({
-  el: '#todo-list-example',
+  el: '#app',
   data: {
     urls,
     nextTodoId: 4,
